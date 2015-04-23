@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Desenvolvido por Gabriel Rossi */
+*{ line-height: 1.3;}
+
+.xxx{margin:0 20px}
+.yyy{margin:0 35px}
+.ZZZ{margin:0 50px}
+
+.aligncenter{ text-align:center}
+.alignright { text-align:right}
+.alignleft { text-align:left }
+.clear         { clear:both; }
+.float-left    { float:left; }
+.float-right   { float:right; }
+
+.text-left     { text-align:left; }
+.text-right    { text-align:right; }
+.text-center   { text-align:center; }
+.text-justify  { text-align:justify; }
+
+.txt10{font-size:10px;}
+.txt12{font-size:12px;}
+.txt14{font-size:14px;}
+.txt16{font-size:16px;}
+.txt18{font-size:18px;}
+.txt20{font-size:20px;}
+.txt22{font-size:22px;}
+.txt24{font-size:24px;}
+.txt26{font-size:26px;}
+.txt28{font-size:28px;}
+.txt30{font-size:30px;}
+.txt32{font-size:32px;}
+.txt34{font-size:34px;}
+.txt36{font-size:36px;}
+
+.txtVerm{ color:#900;}
+.txtVerm_dest{color: #FF0000;
+    font-weight: bold;
+}
+.txtVerd{ color:#060;}
+.txtBra{ color:#FFF;}
+.txtPre{ color:#000}
+.txtCin{ color:#888;}
+
+.list_disc li{ list-style:outside; margin:2px 0 2px 30px; }
+
+.bold          { font-weight:bold; }
+.italic        { font-style:italic; }
+.underline     { border-bottom:1px solid; }
+
+.img-left      {float:left;margin:4px 10px 4px 0; }
+.img-right     {float:right;margin:4px 0 4px 10px; }
+
+.noindent      { margin-left:0;padding-left:0; }
+.nobullet      { list-style:none;list-style-image:none; }
+
+.display-Block{ display:block;}
+.display-None{ display:none;}
+
+.margin05{margin:0px 5px;}
+.margin50{margin:5px 0px;}
+.margin5{ margin:5px;}
+
+.colorBran{color:#FFF;}
+.colorPret{color:#000;}
+.colorRosa{ color:#EA63A8;}
+.colorAzul{ color:#2571DF;}
+
+a{color:#004080; text-decoration:none;}
+a:hover{color:#AA2062;}
+ 
+b{font-weight:bold;}
+
+
+.bordaVerm{border:1px solid #900;}
+.bordaVerd{border:1px solid #090;}

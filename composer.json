@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-0": {
+            "plugins": "src/",
+            "controller": "app/controller/"
+        }
+    }
+}
