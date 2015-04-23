@@ -1,5 +1,4 @@
 <?php
-
 function auto_carregamento($className){
     $file = str_replace('\\', '/', $className . '.php');
 
