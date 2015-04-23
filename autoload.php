@@ -5,8 +5,6 @@ function auto_carregamento($className){
 
     $smarty = substr($file, 0, 6);
 
-    //echo $smarty;
-
     if($smarty == "Smarty" && $file != "Smarty.php"){
         $file = strtolower($file);
     }
