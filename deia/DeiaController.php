@@ -4,7 +4,7 @@
  *
  */
 
-class DeiaController extends Smarty{
+class DeiaController{
 
     /**
      * Instancia do modelo a ser manipulado pelo controlador
@@ -67,7 +67,6 @@ class DeiaController extends Smarty{
      */
     public function __construct($smarty = false)
     {
-        parent::__construct();
 
         $this->urlApp = HOST . "/IBANet";
         if (PORT != 80) {
