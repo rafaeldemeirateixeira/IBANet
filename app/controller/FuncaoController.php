@@ -89,7 +89,7 @@ class FuncaoController extends DeiaController{
 
             $data = array($_POST["fnc_cod_pai"], $_POST["fnc_nome"]);
             if(FuncaoModel::insert($data)){
-                $this->splash("Tipo salvo com sucesso");
+                $this->splash("Função salva com sucesso");
                 $this->go($this->urlController);
             }else{
                 $this->splash("Tentativa falhou! Tente novamente");
